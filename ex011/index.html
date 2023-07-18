@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <h2>Hino do Corinthians:</h2>
+    <audio src="midia/hinoCorinthians.mp3" controls></audio>
+    <h2>Guanabara Cast:</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <!--MP3 WAV OGG-->
+        <p>Infelizmente seu navegador não reproduz esse tipo de áudio.<a href="midia/guanacast-33.mp3">clique aqui para baixar o arquivo MP3</a></p> 
+    </audio>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video preload="metadata" width="500" poster="Imagens/tubarao.png" controls>
+        <source src="midia/TubaraoWEBM.webm" type="video/webm">
+        <source src="midia/TubaraoMKV.mkv" type="video/mkv">
+        <source src="midia/TubaraoMP4.mp4" type="video/mp4">
+        <!--webm mkv mp4 ogv-->
+        <p>Infelizmente seu navegador não reproduz esse tipo de vídeo.<a href="midia/TubaraoMP4.mp4">clique aqui</a> para baixar o arquivo MP4</p>
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

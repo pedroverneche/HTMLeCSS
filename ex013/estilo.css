@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('GothamBold.ttf') format('truetype'), url('Gotham-Black.otf') format('opentype');
+}
+img{
+    height: 100px;
+}
+
+body{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, #1eb854, #11D943);
+}
+main{
+    background-color: black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: #11D943;
+}
+h1{
+    font-family: 'Gotham', Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: 'Gotham', Arial, Helvetica, sans-serif;
+}
+button{
+    font-family: 'Gotham', Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border: none;
+}

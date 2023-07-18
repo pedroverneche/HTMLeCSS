@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            /*
+            Medidas Absolutas
+            cm, mm, in, (px), pt, pc
+            
+            Medidas Relativas
+            (em), ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-weight: normal;
+            /*
+            lighter normal bold bolder
+            */
+            font-style: italic;
+        }
+        h1{
+            /*font-family: 'Work Sans', sans-serif;
+            font-size: 2.3em;
+            font-weight: bolder;
+            font-style: normal;
+            
+            Shorthand font
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: normal bold 2.3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: italic 900 1.5em 'Work Sans', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quibusdam ipsum architecto est praesentium ex dolorem quasi modi ratione reiciendis atque, omnis, consequatur voluptate dicta repellendus, debitis tenetur! Nam, nulla.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium repudiandae id veniam cumque, laboriosam temporibus mollitia provident dolore omnis necessitatibus cum quibusdam pariatur. Molestiae expedita perferendis vel, porro laborum totam?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates dolor, quae rerum officia expedita, amet sed laborum modi voluptatem excepturi animi placeat officiis adipisci cumque sequi repellat culpa veritatis repellendus. Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            background-color: rgb(175, 123, 28);
+        }
+        header{
+            background-color: rgb(99, 60, 2);
+            padding: 10px;
+            margin: 10px;
+            border-style: solid;
+            border-color: yellow;
+        }
+        nav{
+            font-weight: bold;
+            padding: 3px;
+            background-color: rgb(141, 96, 30);
+            box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.411);
+            border-radius: 10px 0px;
+        }
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        main{
+            background-color: rgb(99, 60, 2);
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+            border-style: solid;
+            border-color: yellow;
+        }
+        mark{
+            background-color: yellow;
+            padding: 3px;
+            border-style: double;
+            color: rgb(99, 60, 2);
+            font-size: 19px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.411);
+        }
+        footer{
+            background-color: rgb(99, 60, 2);
+            border-style: solid;
+            border-color: yellow;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            border-radius: 30px;
+        }
+        #conteudo{
+            background-color: rgb(141, 96, 30);
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.411);
+        }
+        #ig{
+            background-color: yellow;
+            padding: 3px;
+            border-style: double;
+            color: rgb(99, 60, 2);
+            font-size: 19px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.411);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav> 
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p id="conteudo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ipsum labore perferendis quas explicabo, a minima magnam, earum obcaecati voluptatibus temporibus quisquam culpa perspiciatis, tempore veritatis repudiandae repellat quos magni?</p>
+            </article>
+            <article>
+                <aside>
+                    <p>Artigo escrito por <mark>Pedro Verneche</mark></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a id="ig" href="https://www.instagram.com/pedrovp.19/?hl=pt-br" target="_blank">@pedrovp.19</a></p>
+    </footer>
+</body>
+</html>

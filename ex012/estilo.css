@@ -1,0 +1,16 @@
+@charset "UTF-8"; /*REGRA*/
+body{ /*ESTILO*/
+    background-color: rgb(175, 255, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+h1{
+    background-color: rgb(56, 223, 106);
+    color: rgb(1, 88, 1);
+    font-size: 1.5em;
+}
+h2{
+    color: rgb(5, 167, 5);
+    font-size: 1.2em;
+}
